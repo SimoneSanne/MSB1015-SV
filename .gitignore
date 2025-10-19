@@ -1,0 +1,34 @@
+# --- Python cache and build files ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Jupyter notebooks ---
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Data ---
+# Ignore ALL files inside the data folder
+data/*
+
+# BUT keep the folder itself (with a placeholder)
+!data/.gitkeep
